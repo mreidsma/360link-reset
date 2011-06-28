@@ -41,7 +41,7 @@ $("div#CitationRefiner table tr td.BorderN span.SS_searchTitle").replaceWith("<h
 
 // Get the variables from the inputs on the refiner page
 
-var refineatitle = $("input#rft\.atitle").val();
+var refineatitle = $("input#rft\\.atitle").val();
 var refinetitle = $("input#rft\\.title").val();
 var refinevolume = $("input#rft\\.volume").val();
 var refineissue = $("input#rft\\.issue").val();
@@ -51,9 +51,9 @@ var refineaulast = $("input#rft\\.aulast").val();
 var refineaufirst = $("input#rft\\.aufirst").val();
 var refineau = $("input#rft\\.au").val();
 var refineaucorp = $("input#rft\\.aucorp").val();
-var refinedoi = $("input#rft\\.doi").val();
+var refinedoi = $("input#doi").val();
 var refineissn = $("input#rft\\.issn").val();
-var refinepmid = $("input#rft\\.pmid").val();
+var refinepmid = $("input#pmid").val();
 
 // Replace the terrible table-based form with semantic HTML. Welcome to the 21st century, Serials Solutions!
 
