@@ -1,0 +1,191 @@
+
+
+table {
+	border-collapse: collapse;
+	display: inline-table;
+}
+
+table, table tr, table td {
+	border: none;
+}
+	
+table#CandyWrapper {
+	table-layout: fixed;
+	width: 90% !important;
+	margin: 0 33px;
+}
+
+div#CitationResults {
+	padding: 0 1em !important;
+}
+
+td.CitationValue div {
+	font-size: 1.1em;
+	line-height: 1.5em;
+	font-weight: normal;
+}
+
+#CitationJournalTitleValue {
+	font-style: italic;
+}
+
+td.CitationLabel {
+	width: 5em;
+	color: #777;
+	font-size: 1.1em;
+	line-height: 1.5em;
+	font-weight: bold;
+}
+
+#SearchResults {
+	width: 100%;
+	margin: 1em 0 0 0;
+	border-bottom: 1px solid #ddd; 
+}
+
+#MoreResults {
+	width: 90%;
+	margin: 0 33px;
+}
+
+#MoreResults h4 {
+	font-size: 1.4em !important;
+	border-bottom: 1px solid #ddd; 
+}
+
+#MoreResults h5 {
+	display: inline;
+	margin-right: 1em;
+	font-size: 1.3em;
+}
+
+#lib-search-print, #lib-doc-del {
+	margin-bottom: 1em;
+}
+
+#lib-search-print a, #lib-doc-del a {
+	color: #069;
+	font-size: 1.3em;
+	text-decoration: none;
+}
+
+a#refworks {
+	display: inline-block;
+	padding-top: 20px;
+	border: 0;
+	height: 0;
+	width: 102px;
+	background: transparent url(../img/refworks-logo.gif) top left no-repeat;
+	position: relative;
+	top: 4px;
+	left: 10px;
+	overflow: hidden;
+}
+
+table#ContentAvailableTable {
+	display: none;
+}
+
+table h4 {
+	color: #333;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+/*
+div#RefinerLink1 {
+	width: 50%;
+}
+*/
+
+span.SS_ContentHeading, img.CellSpacer, p#RefinerLink2, td.BorderW, tr.LinePadRow, td.BorderE, td.CornerNW, td.BorderN img, div#RefinerLink0, td.CornerSE, td.CornerSW, td.BorderS, td.BorderW {
+	display: none;
+}
+
+table#JournalLinkTable {
+	width: 95% !important;
+	margin-top: .5em;
+	font-size: 1.3em;
+}
+
+td.CitationLabel {
+	width: 10%;
+	font-weight: bold;
+}
+
+td#CitationJournalIssnValue, td#CitationJournalVolumeValue {
+	width: 25%;
+}
+
+td div#DateCL {
+	margin-left: 2em;
+	color: #333;
+}
+
+div#ArticleCL a {
+	display: block; 
+	margin: 0; 
+	padding: 4px 15px; 
+	border: 1px solid #4081af; 
+	border-bottom-color: #20559a; 
+	color: white; 
+	text-align: center; 
+	text-shadow: 0 -1px 0 rgba(0,0,0,.3); 
+	text-decoration: none; 
+	-webkit-border-radius: 4px; 
+	-moz-border-radius: 4px; 
+	khtml-border-radius: 4px; 
+	border-radius: 4px; 
+	background: #0090D2; 
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(.2, #52a8e8), color-stop(1, #2e76cf)); 
+	background: -moz-linear-gradient(center top, #52a8e8 20%, #2e76cf 100%); 
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.3), inset 0 0 2px rgba(255,255,255,.3), 0 1px 2px rgba(0,0,0,.29); 
+	-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.3), inset 0 0 2px rgba(255,255,255,.3), 0 1px 2px rgba(0,0,0,.29); 
+	box-shadow: inset 0 1px 0 rgba(255,255,255,.3), inset 0 0 2px rgba(255,255,255,.3), 0 1px 2px rgba(0,0,0,.29);
+}
+
+div#JournalCL a {
+	display: block; 
+	width: 5em;
+	margin: 0 .5em 0 2em; 
+	padding: 4px 15px; 
+	border: 1px solid #777; 
+	border-bottom-color: #333; 
+	color: #666; 
+	text-align: center; 
+	text-decoration: none; 
+	-webkit-border-radius: 4px; 
+	-moz-border-radius: 4px; 
+	khtml-border-radius: 4px; 
+	border-radius: 4px; 
+	background: #999; 
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(.2, #ddd), color-stop(1, #999)); 
+	background: -moz-linear-gradient(center top, #ddd 20%, #999 100%); 
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.3), inset 0 0 2px rgba(255,255,255,.3), 0 1px 2px rgba(0,0,0,.29); 
+	-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.3), inset 0 0 2px rgba(255,255,255,.3), 0 1px 2px rgba(0,0,0,.29); 
+	box-shadow: inset 0 1px 0 rgba(255,255,255,.3), inset 0 0 2px rgba(255,255,255,.3), 0 1px 2px rgba(0,0,0,.29);
+}
+
+div#DatabaseCL a {
+	display: block;
+	padding: .5em .3em;
+	color: #1F65A0;
+	text-decoration: none;
+}
+
+h3 {
+	font-family: "Palatino", "Book Antiqua", Times, "Times New Roman", serif;
+	font-size: 1.5em !important;
+	margin: 0 !important;
+	color: #093a6d;
+}
+
+div#footer {
+	margin-top: 3.5em;
+}
+
+div#citation {
+	margin: 1em 0;
+	font-size: 1.2em;
+}
+
+
