@@ -3,7 +3,7 @@
 360Link Reset v1.1: July 2011
 by Matthew Reidsma
 Grand Valley State University Libraries
-http://gvsu.edu/library/labs
+http://gvsu.edu/library/labs/360link-reset
 */
 
 /*
@@ -85,7 +85,7 @@ $("table.ContentNotAvailableTable").replaceWith( "<div id=\"ContentNotAvailableT
 
 // Ugh. Why stick that citation in a table? Let's clean that up
 
-if (improveCitation == true) {
+if (improveCitation == false) {
 
 var authorName = $("span.fn").text();
 authorName = jQuery.trim(authorName); // Trim leading white space form author name
@@ -170,6 +170,3 @@ if (format == "UnknownFormat") {
 }
 
 }
-
-
-
