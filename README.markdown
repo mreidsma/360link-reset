@@ -1,4 +1,10 @@
-#README - 360Link-Reset
+# THIS SCRIPT HAS BEEN SUPERCEDED BY A NEW VERSION
+
+The new version of this script is at [github.com/gvsulib/360link-reset](http://github.com/gvsulib/360link-reset)
+
+-----
+
+## README - 360Link-Reset
 
 ---
 
